@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__snyk__snyk_auth_status",
+      "mcp__snyk__snyk_iac_scan",
+      "mcp__snyk__snyk_trust",
+      "Bash(npm install:*)",
+      "mcp__snyk__snyk_sca_scan"
+    ],
+    "deny": []
+  }
+}
