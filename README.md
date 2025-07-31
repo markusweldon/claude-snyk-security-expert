@@ -1,29 +1,32 @@
-# Elite Snyk Security Expert Agent for Claude Code
+# Snyk Security Expert Agent for Claude Code
 
-An elite cybersecurity specialist subagent that combines 20+ years of industry expertise with Snyk's powerful security scanning capabilities. This agent provides comprehensive security architecture review, advanced threat modeling, and enterprise-grade vulnerability assessment with actionable remediation guidance.
+An elite cybersecurity specialist agent that combines 25+ years of security expertise with Snyk's powerful security scanning capabilities. This agent provides comprehensive application security review, advanced threat modeling, and enterprise-grade vulnerability assessment with actionable remediation guidance.
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-1. **Claude Code**: Install the latest version of Claude Code
-   ```bash
-   npm install -g @anthropic-ai/claude-code
-   claude #Start Claude Code, and Authenticate
-   ```
-2. **Snyk CLI**: Install and authenticate with Snyk
+You'll need Node as the following are installed via npm:
+
+1. **Snyk CLI**: Install and authenticate with Snyk
    ```bash
    npm install -g snyk
    snyk auth #Authenticate with Snyk
    ```
 
-3. **Snyk MCP Server**: Set up the Snyk MCP server integration
+2. **Snyk MCP Server**: Set up the Snyk MCP server via Snyk CLI
+
+3. **Claude Code**: Install the latest version of Claude Code
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   claude #Start Claude Code, and Authenticate
+   ```
 
 ### Installation
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-username/snyk-subagent-for-claude-code.git
+   git clone https://github.com/markusweldon/snyk-subagent-for-claude-code.git
    cd snyk-subagent-for-claude-code
    ```
 
